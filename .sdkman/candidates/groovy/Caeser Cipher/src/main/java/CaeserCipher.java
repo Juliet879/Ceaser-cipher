@@ -41,4 +41,7 @@ public class CaeserCipher {
             return holder;
         }
 
-    }
+        private static StringBuilder decipher(String word, int shift) {
+
+
+        }
