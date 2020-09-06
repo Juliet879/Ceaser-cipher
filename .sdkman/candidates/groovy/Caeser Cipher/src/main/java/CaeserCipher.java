@@ -51,4 +51,8 @@ public class CaeserCipher {
             int WordLength2 = word.length();
 
 
-        }
+            for (int i = 0; i < WordLength2; i++) {
+                char ch = word.charAt(i);
+
+
+            }
