@@ -42,6 +42,10 @@ public class CaeserCipher {
         }
 
         private static StringBuilder decipher(String word, int shift) {
-
+            if (shift > 26) {
+                shift = shift % 26;
+            } else if (shift < 0) {
+                shift = (shift % 26) + 26;
+            }
 
         }
