@@ -35,5 +35,10 @@ public class CaeserCipher {
                     } else {
                         holder.append(shiftedWord);
                     }
+                }
+
+            }
+            return holder;
+        }
 
     }
