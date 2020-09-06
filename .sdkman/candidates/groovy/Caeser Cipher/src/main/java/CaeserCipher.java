@@ -17,4 +17,7 @@ public class CaeserCipher {
         StringBuilder holder = new StringBuilder();
         int WordLength = word.length();
 
+        for (int index = 0; index < WordLength; index++) {
+            char ch = word.charAt(index);
+
     }
