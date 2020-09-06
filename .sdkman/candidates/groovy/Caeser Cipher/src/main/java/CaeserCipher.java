@@ -20,4 +20,13 @@ public class CaeserCipher {
         for (int index = 0; index < WordLength; index++) {
             char ch = word.charAt(index);
 
+            if (Character.isLetter(ch)) {
+                if (Character.isLowerCase(ch)) {
+                    char shiftedWord = (char) (ch + shift);
+                    if (shiftedWord > 'z') {
+                        holder.append((char) (ch - (26 - shift)));
+                    } else {
+                        holder.append(shiftedWord);
+                    }
+
     }
