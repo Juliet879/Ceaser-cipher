@@ -18,7 +18,7 @@ public class Sql2oUserDaoTest {
 //        String connectionString = "jdbc:h2:mem:testing;INIT=RUNSCRIPT from 'classpath:db/create.sql'";
 //        Sql2o sql2o = new Sql2o(connectionString, "", "");
         String connectionString = "jdbc:postgresql://localhost:5432/myorg_test";
-        Sql2o sql2o = new Sql2o(connectionString, "moringa", "moringa");
+        Sql2o sql2o = new Sql2o(connectionString, "moringa", "Jkg25879");
         departmentDao = new Sql2oDepartmentDao(sql2o);
         newsDao = new Sql2oNewsDao(sql2o);
         userDao = new Sql2oUserDao(sql2o);
